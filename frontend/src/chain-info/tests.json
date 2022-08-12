@@ -1,0 +1,62 @@
+{
+  "contracts": {
+    "DappToken": "d041cdcbedc4faf3f5611dabfd0e1491229e47cc",
+    "EthSwap": "fcbb66368fd12a2c04d2b85e2a5d951fe2880b28",
+    "OpenZeppelin/openzeppelin-contracts@4.2.0/ERC20": "d0e8b1989cf0fad3654a6e1dcc883e7fc1f82aa3",
+    "OpenZeppelin/openzeppelin-contracts@4.2.0/Strings": "1ce946f6a4eaa185320328620ccf999b9e86db7c"
+  },
+  "tests": {
+    "tests/test_eth_swap.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..F",
+      "sha1": "bee50deb69a8fac5482b3cf328ddacc2e1680ce3",
+      "txhash": [
+        "a319d438b385854bda99443277215e62cbeffb8d"
+      ]
+    }
+  },
+  "tx": {
+    "a319d438b385854bda99443277215e62cbeffb8d": {
+      "DappToken": {
+        "0": [
+          [
+            2
+          ],
+          [],
+          []
+        ],
+        "4": [
+          [],
+          [],
+          []
+        ]
+      },
+      "EthSwap": {
+        "1": [
+          [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          [],
+          [
+            18
+          ]
+        ],
+        "2": [
+          [
+            0
+          ],
+          [],
+          [
+            15
+          ]
+        ]
+      }
+    }
+  }
+}
